@@ -6,3 +6,4 @@ valueInput.addEventListener('input', onInputChange);
 function onInputChange() {
     textLabel.style.fontSize = valueInput.value + 'px'; 
 };
+
