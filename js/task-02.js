@@ -12,7 +12,7 @@ const ingredients = [
     const createListIngredients = ingredient => {
         return ingredient.map(ingredient => {
             const ingredientEl = document.createElement('li');
-            ingredientEl.append(ingredient);
+            ingredientEl.textContent = ingredient;
     
             return ingredientEl;
         });
